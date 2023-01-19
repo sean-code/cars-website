@@ -1,0 +1,110 @@
+
+
+.message-box {
+  height: 200px;
+  width: 380px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: 50px;
+  color: #FFF;
+  font-family: Roboto;
+  font-weight: 300;
+}
+.message-box h1 {
+  font-size: 65px;
+  font-weight: 800;
+  line-height: 46px;
+  margin-bottom: 40px;
+}
+.message-box p{
+  font-size: 35px;
+}
+.buttons-con .action-link-wrap {
+  margin-top: 40px;
+}
+.action-link-wrap a, button {
+  background: #09279e;
+  padding: 14px 25px;
+  border: none;
+  border-radius: 4px;
+  color: #fafafa;
+  font-weight: 800;
+  font-size: 20px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px
+}
+.buttons-con .action-link-wrap a:hover, button:hover {
+  background: #c79c26;
+  color: #000;
+}
+
+/* Segment two for background */
+
+.error-container {
+  animation: scroll 70s linear infinite;
+  background: rgba(0, 0, 0, 0.5)url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
+  background-blend-mode: darken;
+  color: #eee;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+
+}
+
+.link-btn{
+  width: 20px;
+  font-size:small;
+
+}
+
+@keyframes scroll {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+
+
+
+
+
+/* Media Queries */
+@media (max-width: 450px) {
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -190px;
+  }
+  .message-box {
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -190px;
+    text-align: center;
+  }
+}
+
+
+
+@media (prefers-reduced-motion) {
+    .wrapper {
+      animation: scroll 200s linear infinite;
+    }
+  }
+  
+  @media (min-width: 670px) {
+    .message-box{
+      font-size: 5rem;
+    }
+  }

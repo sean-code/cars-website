@@ -1,0 +1,11 @@
+.input-b{
+    max-width: 30%;
+    max-height: 10%;
+    padding: 10px;
+}
+
+span > p > i{
+    color: #fafafa;
+    font-size: small;
+
+}
