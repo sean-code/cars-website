@@ -2,7 +2,7 @@ import './App.css';
 import React,{useState,useEffect} from 'react';
 import Login from './Components/Login'
 import Contact from './components/contact/Contact';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Appointment from './components/appointment/Appointment';
 import CarListing from './components/hire/CarListing';
 import Details from './components/pages/Details';
