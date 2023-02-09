@@ -9,8 +9,8 @@ import { Link } from "react-router-dom";
 import commentImg from "../assets/all-images/test1.jpg";
 
 import "../mystyles/blog-details.css";
-import Navbar from "../components/navbar/Navbar.js";
-import Footer from "../components/footer/Footer.js";
+import Navbar from "../components-1/navbar/Navbar.js";
+import Footer from "../components-1/footer/Footer.js";
 
 const BlogDetails = () => {
   const { slug } = useParams();

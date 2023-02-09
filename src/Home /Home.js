@@ -13,8 +13,8 @@ import ServicesList from "../mycomponents/UI/ServicesList";
 import Testimonial from "../mycomponents/UI/Testimonial";
 
 import BlogList from "../mycomponents/UI/BlogList";
-import Footer from "../components/footer/Footer";
-import Navbar from "../components/navbar/Navbar";
+import Footer from "../components-1/footer/Footer";
+import Navbar from "../components-1/navbar/Navbar";
 
 const Home = () => {
   return (

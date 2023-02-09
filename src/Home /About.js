@@ -9,8 +9,8 @@ import { Container, Row, Col } from "reactstrap";
 import driveImg from "../assets/all-images/drive.jpg";
 import OurMembers from "../mycomponents/UI/OurMembers";
 import "../mystyles/about.css";
-import Footer from "../components/footer/Footer";
-import Navbar from "../components/navbar/Navbar";
+import Footer from "../components-1/footer/Footer";
+import Navbar from "../components-1/navbar/Navbar";
 
 
 
