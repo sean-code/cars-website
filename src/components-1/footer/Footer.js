@@ -41,26 +41,26 @@ const Footer = ()=> {
                         Stalk us on
                         <ul className="f-submenu">
                             <li>
-                                <img src={instagram} alt='instagram' style={{'backgroundColor': 'white'}}/>{' '}Instagram</li>
+                                <img src={instagram} alt='instagram'/>{' '}Instagram</li>
                             <li>
-                                <img src={tweet} alt='tweet' style={{'backgroundColor': 'white'}}/>{' '}Twitter</li>
+                                <img src={tweet} alt='tweet'/>{' '}Twitter</li>
                             <li>
-                                <img src={facebook} alt='meta' style={{'backgroundColor': 'white'}}/>{' '}Meta</li>
+                                <img src={facebook} alt='meta'/>{' '}Meta</li>
                         </ul>
                     </li>
                     <li>
                         Contact us
                         <ul className="f-submenu">
                             <li>
-                                <img src={phone} alt='phone' style={{'backgroundColor': 'white'}}/>{' '}
+                                <img src={phone} alt='phone'/>{' '}
                                 +97654598765
                             </li>
                             <li>
-                                <img src={mail} alt='mail' style={{'backgroundColor': 'white'}}/>{' '}
+                                <img src={mail} alt='mail'/>{' '}
                                 info@carental.com
                             </li>
                             <li>
-                                <img src={locale} alt='locale' style={{'backgroundColor': 'white'}}/>{' '}
+                                <img src={locale} alt='locale'/>{' '}
                                 Nairobi, KE
                             </li>
                         </ul>
