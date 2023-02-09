@@ -8,7 +8,7 @@ const blogData = [
   {
     id: 1,
     title: "The best way to drive cars",
-    author: "Dee",
+    author: "Dutton",
     date: "1 Jan 2023",
     time: "10am",
     imgUrl: img01,
@@ -21,7 +21,7 @@ const blogData = [
   {
     id: 2,
     title: "How to check the engine.",
-    author: "Linah",
+    author: "McLusky",
     date: "2 Jan 2023",
     time: "2pm",
     imgUrl: img02,
@@ -35,7 +35,7 @@ const blogData = [
   {
     id: 3,
     title: "Places to visit.",
-    author: "Derick",
+    author: "Dillon",
     date: "15 Jan 2023",
     time: "4pm",
     imgUrl: img03,
