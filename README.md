@@ -13,19 +13,11 @@ An application where users can view car ratings,average market price, used car i
 - [John Nganga](https://github.com/sean-code)
 
 ## Front-end
-- [Deployed here](https://sean-code.github.io/Client-Car-Review-App/)
-
-- Sign into a specific user
-
-- View cars on log in
-- Search for cars
-- Create new cars
+- [Deployed here](https://sean-code.github.io/cars/#//)
 
 - Designed the User Interface with custom CSS and Javascript to create a modern, smooth UI
 
     ```
-    
-    
 
 ## Back-end
 - Utilized Ruby on Rails to rapidly develop and deploy application using MVC framework
@@ -35,13 +27,12 @@ An application where users can view car ratings,average market price, used car i
 - [Rails-Back-End](https://github.com/sean-code/Car-Review)
 
 
-
-
 ## Technology Used
 * Figma design
 * React Js
 * CSS
-* Bootstrap
+* React Bootstrap
+* Ruby on Rails Backend
 
 ## License
 MIT License\
