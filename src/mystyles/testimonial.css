@@ -1,3 +1,7 @@
+.testimonial{
+  box-shadow: 1px 8px 3px rgb(0, 0, 0)
+}
+
 @media only screen and (max-width: 768px) {
     .testimonial p {
       font-size: 0.8rem;
