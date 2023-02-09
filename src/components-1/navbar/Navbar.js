@@ -20,7 +20,7 @@ function Navbar() {
   return (
     <div className='navbar'>
         <div className='leftSide' id = {openLinks? "open": "close"}>
-        <img src= {carlogo} alt ="pizza logo" style={{height:'40px', width:'50px', backgroundColor:'orange'}}/>
+        <img src= {carlogo} alt ="pizza logo" style={{height:'40px', width:'50px'}}/>
             <h1 className='logo'>
                   CA.R.ENTAL
             </h1>
