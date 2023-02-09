@@ -1,13 +1,13 @@
 import React from "react";
 
-import CommonSection from "../mycomponents/UI/CommonSection";
-import Helmet from "../mycomponents/Helmet/Helmet";
-import AboutSection from "../mycomponents/UI/AboutSection";
+import CommonSection from "../components3/UI/CommonSection";
+import Helmet from "../components3/Helmet/Helmet";
+import AboutSection from "../components3/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
 //import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 
 import driveImg from "../assets/all-images/drive.jpg";
-import OurMembers from "../mycomponents/UI/OurMembers";
+import OurMembers from "../components3/UI/OurMembers";
 import "../mystyles/about.css";
 import Footer from "../components-1/footer/Footer";
 import Navbar from "../components-1/navbar/Navbar";
@@ -68,9 +68,6 @@ const About = () => {
           </Row>
         </Container>
        </section> 
-
-      {/* <BecomeDriverSection /> */}
-
        <section> 
         <Container>
           <Row>

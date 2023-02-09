@@ -2,14 +2,17 @@ import React from "react";
 import "../../mystyles/our-member.css";
 import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
-import ava01 from "../../assets/all-images/Lin.jpeg";
-import ava02 from "../../assets/all-images/Derick.jpeg";
-import ava03 from "../../assets/all-images/Stephen.jpeg";
-import ava04 from "../../assets/all-images/Dee.jpeg";
-import ava05 from "../../assets/all-images/Richard.jpeg";
-import ava06 from "../../assets/all-images/John.jpeg";
 
 const OUR__MEMBERS = [
+  {
+    name: "John Nganga",
+    experience: "5 years of experience",
+    fbUrl: "#",
+    instUrl: "#",
+    twitUrl: "#",
+    linkedinUrl: "#",
+    imgUrl: "https://i.scdn.co/image/ab6761610000e5eb5b627785fde57cf7426220de",
+  },
   {
     name: "Linah Imbari",
     experience: "5 years of experience",
@@ -17,7 +20,7 @@ const OUR__MEMBERS = [
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
-    imgUrl: ava01,
+    imgUrl: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-jennifer-lawrence-hair-index-1557773479.jpg?crop=0.501xw:1.00xh;0.500xw,0&resize=640:*",
   },
 
   {
@@ -27,7 +30,7 @@ const OUR__MEMBERS = [
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
-    imgUrl: ava02,
+    imgUrl: "https://www.kaufmannstatic.com/sc_images/Images/Kaufmann/The-Journal/2019/September/007/KAUFMANN_1680x1860_007_thejournal_01.jpg?w=840",
   },
 
   {
@@ -37,7 +40,7 @@ const OUR__MEMBERS = [
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
-    imgUrl: ava03,
+    imgUrl: "https://pyxis.nymag.com/v1/imgs/eb2/ed0/642e863866827069c7d804ed570c3ee6a1-20-tyga.rsquare.w700.jpg",
   },
 
   {
@@ -47,7 +50,7 @@ const OUR__MEMBERS = [
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
-    imgUrl: ava04,
+    imgUrl: "https://images.mubicdn.net/images/cast_member/436230/cache-412094-1549967917/image-w856.jpg?size=800x",
   },
   {
     name: "Richard Ouma",
@@ -56,17 +59,8 @@ const OUR__MEMBERS = [
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
-    imgUrl: ava05,
-  },
-  {
-    name: "John Nganga",
-    experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
-    imgUrl: ava06,
-  },
+    imgUrl: "https://wallpapercave.com/wp/xeM6qcg.jpg",
+  }
 ];
 
 const OurMembers = () => {
@@ -76,7 +70,7 @@ const OurMembers = () => {
         <Col lg="3" md="3" sm="4" xs="6" key={index} className="mb-4">
           <div className="single__member">
             <div className="single__member-img">
-              <img src={item.imgUrl} alt="" className="w-100" />
+              <img src={item.imgUrl} style={{width:"1%"}} alt="imgs" className="w-100" />
 
               <div className="single__member-social">
                 <Link to={item.fbUrl}>

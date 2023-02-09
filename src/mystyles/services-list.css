@@ -1,5 +1,5 @@
 .service__item{
-  box-shadow: 0 3px 6px rgba(0,0,0,0.6)
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.8)
 }
 .service__item span i {
     font-size: 2.5rem;

@@ -52,7 +52,7 @@ const Testimonial = () => {
           <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Myles John</h6>
+            <h6 className="mb-0 mt-3">Taylor Sheridan</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>

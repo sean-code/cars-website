@@ -3,7 +3,7 @@ import { Container, Row, Col, Form, FormGroup, Input } from "reactstrap";
 
 import { useParams } from "react-router-dom";
 import blogData from "../assets/mydata/blogData.js";
-import Helmet from "../mycomponents/Helmet/Helmet";
+import Helmet from "../components3/Helmet/Helmet";
 import { Link } from "react-router-dom";
 
 import commentImg from "../assets/all-images/test1.jpg";

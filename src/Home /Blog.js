@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row } from "reactstrap";
-import Helmet from "../mycomponents/Helmet/Helmet";
-import CommonSection from "../mycomponents/UI/CommonSection";
-import BlogList from "../mycomponents/UI/BlogList";
+import Helmet from "../components3/Helmet/Helmet";
+import CommonSection from "../components3/UI/CommonSection";
+import BlogList from "../components3/UI/BlogList";
 import Navbar from "../components-1/navbar/Navbar";
 import Footer from "../components-1/footer/Footer";
 

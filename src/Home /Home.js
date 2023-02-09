@@ -1,12 +1,12 @@
 import React from "react";
-import HeroSlider from "../mycomponents/UI/HeroSlider";
-import Helmet from "../mycomponents/Helmet/Helmet";
+import HeroSlider from "../components3/UI/HeroSlider";
+import Helmet from "../components3/Helmet/Helmet";
 import { Container, Row, Col } from "reactstrap";
-import FindCarForm from "../mycomponents/UI/FindCarForm";
-import AboutSection from "../mycomponents/UI/AboutSection";
-import ServicesList from "../mycomponents/UI/ServicesList";
-import Testimonial from "../mycomponents/UI/Testimonial";
-import BlogList from "../mycomponents/UI/BlogList";
+import FindCarForm from "../components3/UI/FindCarForm";
+import AboutSection from "../components3/UI/AboutSection";
+import ServicesList from "../components3/UI/ServicesList";
+import Testimonial from "../components3/UI/Testimonial";
+import BlogList from "../components3/UI/BlogList";
 import Footer from "../components-1/footer/Footer";
 import Navbar from "../components-1/navbar/Navbar";
 
@@ -42,8 +42,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">See our</h6>
-              <h2 className="section__title">Popular Services</h2>
+              <h5 className="section__subtitle">See our</h5>
+              <h2 className="section__title" style={{"fontWeight":"800"}}>Popular Services</h2>
             </Col>
             <ServicesList />
           </Row>
@@ -69,13 +69,12 @@ const Home = () => {
           <Row>
             <Col lg="12" className="mb-5 text-center">
               <h5 className="section__subtitle">Explore our blogs</h5>
-              <h2 className="section__title">Latest Blogs</h2>
+              <h2 className="section__title" style={{"fontWeight":"800"}}>Latest Blogs</h2>
             </Col>
-
             <BlogList />
           </Row>
         </Container>
-      </section> 
+      </section>
       <Footer/>
     </Helmet>
     </>
