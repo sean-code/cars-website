@@ -1,0 +1,138 @@
+
+/* Main Container */
+
+.testbox {
+    background: rgba(0, 0, 0, 0.5) url("https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&w=1600");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-blend-mode: darken;
+	background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 20px;
+}
+
+
+.banner > h1 {
+    position: absolute;
+    margin: 0;
+    font-size: 40px;
+    color: orange;
+    z-index: 2;
+    line-height: 83px;
+}
+
+textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+}
+
+
+.booking-form {
+    max-width: 55%;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.booking-form h2{
+    color: orange;
+    background-color: #000d6b;
+    padding: 10px;
+}
+
+/* Input fields */
+
+.item > input, select, textarea {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.item > input {
+    width: calc(100% - 10px);
+    padding: 5px;
+}
+
+input[type="date"] {
+    padding: 4px 5px;
+}
+
+.input > textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+}
+
+
+.item {
+    position: relative;
+    margin: 10px 0;
+    color: azure;
+}
+
+.item label{
+    color: #fafafa;
+}
+
+.item span {
+    color: rgb(253, 253, 253);
+}
+
+.columns {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.columns > div {
+    width:48%;
+}
+
+label.radio {
+    position: relative;
+    display: inline-block;
+    margin: 5px 20px 15px 0;
+    cursor: pointer;
+}
+
+.question-answer label {
+    display: block;
+}
+
+.btn-block {
+    text-align: center;
+}
+.btn-block > button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background:  orange;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    cursor: pointer;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 568px) {
+.name-item, .city-item {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.name-item input, .name-item div {
+    width: calc(50% - 20px);
+}
+.name-item div input {
+    width:97%;
+}
+.name-item div label {
+    display:block;
+    padding-bottom:5px;
+    }
+}

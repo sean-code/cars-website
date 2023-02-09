@@ -1,0 +1,48 @@
+
+/* New Page */
+.title {
+	font-weight: 700;
+	font-size:30px;
+	padding-left: 30px;
+	margin-left: 10px; 
+	color: #000;
+}
+
+.title > h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+
+/*The .app box encompasses both the image and description.
+Make changes here if you want to modify both elements at the same time*/
+.app {
+	display: inline-block;
+	margin-top: 40px;
+	margin: 20px auto;
+	margin-left: 20%;
+}
+
+.description p {
+	font-size: 22px;
+	font-weight: 300;
+	color: #000;
+}
+
+.hint-star {
+	display: inline-block;
+	margin-left: 0.3em;
+	color: orange;
+	width: 65%;
+}
+
+.info ul{
+	color: #000;
+	display: inline-block;
+	justify-content: space-between;
+	
+}
+
+.info ul strong{
+	font-weight: 700;
+}

@@ -1,0 +1,163 @@
+
+/* Main Container */
+.appointment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.bannerr h2 {
+    font-size: 40px;
+    color: rgba(255, 166, 0, 0.88);
+}
+
+
+textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+}
+
+
+.appointment-form {
+    max-width: 40%;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.bannerr h2{
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Input fields */
+.item label{
+    color: #000;
+}
+
+.item .name-tags{
+    color: #000;
+    border-radius: 3px;
+}
+.name-tags{
+    font-size: 20px;
+    color: #000;
+}
+
+.item .textarea-appointment{
+    color: #000;
+}
+
+.item > input {
+    width: calc(100% - 10px);
+    padding: 50px;
+}
+input[type="date"] {
+    padding: 4px 5px;
+}
+
+.input > textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+}
+
+
+.item {
+    position: relative;
+
+}
+.item span {
+    color: red;
+}
+.item > input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+.item i, input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    font-size: 20px;
+    color: #00b33c;
+}
+
+.week {
+    display:flex;
+    justify-content:space-between;
+}
+.columns-appointment {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.columns-appointment > div {
+    width:48%;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+    right: 1%;
+    z-index: 2;
+    opacity: 4;
+    cursor: pointer;
+}
+input[type=radio], input[type=checkbox]  {
+    display: none;
+}
+label.radio {
+    position: relative;
+    display: inline-block;
+    margin: 5px 20px 15px 0;
+    cursor: pointer;
+}
+.question span {
+    margin-left: 30px;
+}
+.question-answer label {
+    display: block;
+}
+
+
+.flax {
+    display:flex;
+    justify-content:space-around;
+}
+.btn-block {    
+    text-align: center;
+}
+.btn-block > button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background:  orange;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    cursor: pointer;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 568px) {
+    .name-item, .city-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+    .name-item input, .name-item div {
+        width: calc(50% - 20px);
+    }
+    .name-item div input {
+        width:97%;
+    }
+    .name-item div label {
+        display:block;
+        padding-bottom:5px;
+    }
+}
