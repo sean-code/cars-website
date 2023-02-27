@@ -6,7 +6,7 @@ import "../../styles/header.css";
 
 const navLinks = [
   {
-    path: "/home",
+    path: "/",
     display: "Home",
   },
   {
