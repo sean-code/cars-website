@@ -6,6 +6,8 @@ import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
 import PaymentMethod from "../components/UI/PaymentMethod";
+import AllPayment from "../components/UI/AllPayment";
+
 
 const CarDetails = () => {
   const { slug } = useParams();
@@ -112,9 +114,17 @@ const CarDetails = () => {
 
             <Col lg="5" className="mt-5">
               <div className="payment__info mt-5">
-                <h5 className="mb-4 fw-bold ">Payment Information</h5>
-                <PaymentMethod />
+                <h5 className="mb-4 fw-bold ">Payment Method</h5>
+                {/* <PaymentMethod /> */}
               </div>
+
+
+              <AllPayment />
+
+
+
+
+
             </Col>
           </Row>
         </Container>
