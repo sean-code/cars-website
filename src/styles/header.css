@@ -1,6 +1,6 @@
 .header__top {
   padding: 10px 0px;
-  background: #000d6b;
+  background: #000;
   color: #fff;
 }
 
@@ -54,7 +54,7 @@
 
 .logo h1 a {
   text-decoration: none;
-  color: #000d6b;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -103,7 +103,7 @@
 
 .main__navbar {
   padding: 15px 0px;
-  background: #000d6b;
+  background: #000;
 }
 
 .mobile__menu i {
@@ -186,16 +186,16 @@
   .menu {
     width: 100px;
     height: 50%;
-    background: #bec4f7;
+    background: #000000e2;
     display: flex;
     align-items: center;
     flex-direction: column;
-    row-gap: 3rem;
+    row-gap: 2rem;
     justify-content: center;
   }
 
   .menu a {
-    color: #000d6b;
+    color: #fff;
     font-weight: 600;
     font-size: 0.9rem;
   }
