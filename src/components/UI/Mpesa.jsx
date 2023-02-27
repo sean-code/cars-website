@@ -1,18 +1,15 @@
 import { useParams } from 'react-router-dom';
-import carsData from '../../data/CarsData';
-import Navbar from '../../navbar/Navbar';
-import Footer from '../../footer/Footer';
+import carData from "../../assets/data/carData"
 import '../../styles/mpesa.css';
 
 
 const Mpesa = () => {
 
     const { slug } = useParams();
-    const singleCarItem = carsData.find((item) => item.make === slug);
+    const singleCarItem = carData.find((item) => item.make === slug);
 
     return(
         <>
-            <Navbar />
             <div class="mainscreen">
                 <div class="payment-card">
                     <div class="leftside">
@@ -41,7 +38,6 @@ const Mpesa = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

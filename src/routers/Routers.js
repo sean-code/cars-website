@@ -8,6 +8,8 @@ import Blog from "../pages/Blog";
 import BlogDetails from "../pages/BlogDetails";
 import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
+import Payment from "../components/UI/CardPayment";
+import Mpesa from "../components/UI/Mpesa";
 
 const Routers = () => {
   return (
@@ -19,6 +21,8 @@ const Routers = () => {
       <Route path="/cars/:slug" element={<CarDetails />} />
       <Route path="/blogs" element={<Blog />} />
       <Route path="/blogs/:slug" element={<BlogDetails />} />
+      <Route path="/cars/:slug/payment/card" element={<Payment/>} />
+      <Route path="/cars/:slug/payment/mpesa" element={<Mpesa/>} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
