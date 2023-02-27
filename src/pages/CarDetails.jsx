@@ -27,8 +27,7 @@ const CarDetails = () => {
 
             <Col lg="6">
               <div className="car__info">
-                <h2 className="section__title">{singleCarItem.make}</h2>
-
+                <h2 className="section__title">Hire this {singleCarItem.make}{' '}{singleCarItem.model}</h2>
                 <div className=" d-flex align-items-center gap-5 mb-4 mt-3">
                   <h6 className="rent__price fw-bold fs-4">
                     Ksh.{singleCarItem.price} / Week
@@ -42,10 +41,16 @@ const CarDetails = () => {
                       <i class="ri-star-s-fill"></i>
                       <i class="ri-star-s-fill"></i>
                     </span>
-                    ({singleCarItem.year} year of manufacture)             </span>
+                    (Year of Manufacture:{' '}{singleCarItem.year})             </span>
                 </div>
 
-                <p className="section__description">
+                <p className="section__description" style={{color:'#000', fontSize:'1.2 rem'}}>
+                <h3>Overview</h3>
+                    <p className='desc'>The <span>{singleCarItem.make}{' '}{singleCarItem.model}</span> has a mileage of <span>{singleCarItem.mileage}</span> kpml. 
+                        The <span>{singleCarItem.fuel_type}</span> car is of <span>{singleCarItem.transmission}</span><br/>transmission 
+                        and encompasses an engine size of <span>{singleCarItem.engine_size}</span>. Enjoy this <span>{singleCarItem.year}</span><br /> manufactured car,
+                        only at $<span>{singleCarItem.price}</span> per day!
+                    </p>
                   {singleCarItem.description}
                 </p>
 
@@ -74,7 +79,7 @@ const CarDetails = () => {
                       class="ri-timer-flash-line"
                       style={{ color: "#f9a826" }}
                     ></i>{" "}
-                    {singleCarItem.mileage}
+                    {singleCarItem.mileage} mileage
                   </span>
                 </div>
 
@@ -84,15 +89,7 @@ const CarDetails = () => {
                 >
                   <span className=" d-flex align-items-center gap-1 section__description">
                     <i class="ri-map-pin-line" style={{ color: "#f9a826" }}></i>{" "}
-                    {singleCarItem.gps}
-                  </span>
-
-                  <span className=" d-flex align-items-center gap-1 section__description">
-                    <i
-                      class="ri-wheelchair-line"
-                      style={{ color: "#f9a826" }}
-                    ></i>{" "}
-                    {singleCarItem.seatType}
+                    {singleCarItem.fuel_type}
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section__description">
