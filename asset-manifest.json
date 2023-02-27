@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cars/static/css/main.7f40177c.css",
-    "main.js": "/cars/static/js/main.7a4751af.js",
+    "main.css": "/cars/static/css/main.611142e1.css",
+    "main.js": "/cars/static/js/main.4801a131.js",
     "static/media/remixicon.svg?t=1590207869815": "/cars/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/remixicon.eot?t=1590207869815": "/cars/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/cars/static/media/remixicon.f2616f597cf98f38d234.ttf",
@@ -10,7 +10,6 @@
     "static/media/ava-2.jpg": "/cars/static/media/ava-2.11e918c656d0c7851624.jpg",
     "static/media/ava-4.jpg": "/cars/static/media/ava-4.5f15524f7b3f80a834df.jpg",
     "static/media/remixicon.woff?t=1590207869815": "/cars/static/media/remixicon.8d09fa11700ed63cf96e.woff",
-    "static/media/bmw-offer.png": "/cars/static/media/bmw-offer.ecfb9ac1bf7b5ef615a6.png",
     "static/media/remixicon.woff2?t=1590207869815": "/cars/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
     "static/media/blog-1.jpg": "/cars/static/media/blog-1.e4949dd1d3e0ec0543c5.jpg",
     "static/media/blog-2.jpg": "/cars/static/media/blog-2.dce2eeb8549652564638.jpg",
@@ -22,11 +21,11 @@
     "static/media/slick.ttf": "/cars/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/cars/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/cars/index.html",
-    "main.7f40177c.css.map": "/cars/static/css/main.7f40177c.css.map",
-    "main.7a4751af.js.map": "/cars/static/js/main.7a4751af.js.map"
+    "main.611142e1.css.map": "/cars/static/css/main.611142e1.css.map",
+    "main.4801a131.js.map": "/cars/static/js/main.4801a131.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f40177c.css",
-    "static/js/main.7a4751af.js"
+    "static/css/main.611142e1.css",
+    "static/js/main.4801a131.js"
   ]
 }
