@@ -73,7 +73,7 @@ const Footer = () => {
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Head Office</h5>
               <p className="office__info">123 Portland Avenue, Nairobi</p>
-              <p className="office__info">Phone: +0995345875365</p>
+              <p className="office__info">Phone: +254-123-456-789</p>
 
               <p className="office__info">Email: ngangasean@yahoo.com</p>
 
