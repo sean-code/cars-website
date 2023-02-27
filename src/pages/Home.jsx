@@ -75,7 +75,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-4 text-center">
-              <h6 className="section__subtitle">Our clients says</h6>
+              <h6 className="section__subtitle">What do our customers say?</h6>
               <h2 className="section__title">Testimonials</h2>
             </Col>
 
