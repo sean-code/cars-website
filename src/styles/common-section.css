@@ -1,6 +1,6 @@
 .common__section {
-  background: linear-gradient(rgb(0, 13, 107, 0.6), rgb(0, 13, 107, 0.6)),
-    url("../assets/all-images/drive.jpg");
+  background: linear-gradient(rgba(29, 30, 40, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://media.istockphoto.com/id/183523473/photo/driving-speed-concept.jpg?s=612x612&w=0&k=20&c=0ihwzfs9LOb3Kbl5o3_u2XifTu1TIbBBrzVofktCdag=");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
