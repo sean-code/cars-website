@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cars-website/static/css/main.0ab941cd.css",
-    "main.js": "/cars-website/static/js/main.12efac5a.js",
+    "main.js": "/cars-website/static/js/main.056310a3.js",
     "static/media/remixicon.svg?t=1590207869815": "/cars-website/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/remixicon.eot?t=1590207869815": "/cars-website/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/cars-website/static/media/remixicon.f2616f597cf98f38d234.ttf",
@@ -11,10 +11,7 @@
     "static/media/ava-4.jpg": "/cars-website/static/media/ava-4.5f15524f7b3f80a834df.jpg",
     "static/media/remixicon.woff?t=1590207869815": "/cars-website/static/media/remixicon.8d09fa11700ed63cf96e.woff",
     "static/media/remixicon.woff2?t=1590207869815": "/cars-website/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
-    "static/media/blog-1.jpg": "/cars-website/static/media/blog-1.e4949dd1d3e0ec0543c5.jpg",
-    "static/media/blog-2.jpg": "/cars-website/static/media/blog-2.dce2eeb8549652564638.jpg",
     "static/media/toyota-offer-2.png": "/cars-website/static/media/toyota-offer-2.861de085d1c782df9e9d.png",
-    "static/media/blog-3.jpg": "/cars-website/static/media/blog-3.0cd3766389d5b56badaa.jpg",
     "static/media/drive.jpg": "/cars-website/static/media/drive.b72e6f2d1ccdbd6550a9.jpg",
     "static/media/slick.svg": "/cars-website/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/cars-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -22,10 +19,10 @@
     "static/media/slick.woff": "/cars-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/cars-website/index.html",
     "main.0ab941cd.css.map": "/cars-website/static/css/main.0ab941cd.css.map",
-    "main.12efac5a.js.map": "/cars-website/static/js/main.12efac5a.js.map"
+    "main.056310a3.js.map": "/cars-website/static/js/main.056310a3.js.map"
   },
   "entrypoints": [
     "static/css/main.0ab941cd.css",
-    "static/js/main.12efac5a.js"
+    "static/js/main.056310a3.js"
   ]
 }
