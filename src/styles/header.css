@@ -91,7 +91,7 @@
   column-gap: 0.4rem;
   text-decoration: none;
   color: #fff;
-  justify-content: end;
+  justify-content: flex-end;
   font-size: 0.9rem;
 }
 
