@@ -10,28 +10,28 @@ import PaymentMethod from "../components/UI/PaymentMethod";
 const CarDetails = () => {
   const { slug } = useParams();
 
-  const singleCarItem = carData.find((item) => item.carName === slug);
+  const singleCarItem = carData.find((item) => item.make === slug);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [singleCarItem]);
 
   return (
-    <Helmet title={singleCarItem.carName}>
+    <Helmet title={singleCarItem.make}>
       <section>
         <Container>
           <Row>
             <Col lg="6">
-              <img src={singleCarItem.imgUrl} alt="" className="w-100" />
+              <img src={singleCarItem.image} alt="" className="w-100" />
             </Col>
 
             <Col lg="6">
               <div className="car__info">
-                <h2 className="section__title">{singleCarItem.carName}</h2>
+                <h2 className="section__title">{singleCarItem.make}</h2>
 
                 <div className=" d-flex align-items-center gap-5 mb-4 mt-3">
                   <h6 className="rent__price fw-bold fs-4">
-                    ${singleCarItem.price}.00 / Day
+                    Ksh.{singleCarItem.price} / Week
                   </h6>
 
                   <span className=" d-flex align-items-center gap-2">
@@ -42,8 +42,7 @@ const CarDetails = () => {
                       <i class="ri-star-s-fill"></i>
                       <i class="ri-star-s-fill"></i>
                     </span>
-                    ({singleCarItem.rating} ratings)
-                  </span>
+                    ({singleCarItem.year} year of manufacture)             </span>
                 </div>
 
                 <p className="section__description">
@@ -67,7 +66,7 @@ const CarDetails = () => {
                       class="ri-settings-2-line"
                       style={{ color: "#f9a826" }}
                     ></i>{" "}
-                    {singleCarItem.automatic}
+                    {singleCarItem.transmission}
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section__description">
@@ -75,7 +74,7 @@ const CarDetails = () => {
                       class="ri-timer-flash-line"
                       style={{ color: "#f9a826" }}
                     ></i>{" "}
-                    {singleCarItem.speed}
+                    {singleCarItem.mileage}
                   </span>
                 </div>
 
@@ -101,7 +100,7 @@ const CarDetails = () => {
                       class="ri-building-2-line"
                       style={{ color: "#f9a826" }}
                     ></i>{" "}
-                    {singleCarItem.brand}
+                    {singleCarItem.make}
                   </span>
                 </div>
               </div>
