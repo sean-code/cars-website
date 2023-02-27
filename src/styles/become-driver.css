@@ -1,6 +1,6 @@
 .become__driver {
-  background: linear-gradient(rgb(0, 13, 107, 0.9), rgb(0, 13, 107, 0.9)),
-    url("../assets/all-images/drive.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.594)),
+    url("https://media.istockphoto.com/id/157479835/photo/spy-in-car.jpg?s=612x612&w=0&k=20&c=qSMtUADKvxDeQnXDEKsGIFRc5cb5Hh5yNl_kilwNLgc=");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,7 +9,7 @@
 
 .become__driver button {
   background: #fff;
-  color: #000d6b;
+  color: #000;
   font-weight: 600;
 }
 
