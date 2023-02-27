@@ -4,24 +4,24 @@
 }
 
 .slider__item-01 {
-  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
-    url("../assets/all-images/slider-img/slider-1.jpg");
+  background: linear-gradient(rgba(23, 23, 26, 0.5), rgba(15, 16, 18, 0.5)),
+    url("https://images.unsplash.com/photo-1615887110697-0819ec23465f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fFNVViUyMGhpcmV8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slider__item-02 {
-  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
-    url("../assets/all-images/slider-img/slider-2.jpg");
+  background: linear-gradient(rgba(18, 18, 21, 0.5), rgba(10, 10, 11, 0.5)),
+    url("https://images.unsplash.com/photo-1510903117032-f1596c327647?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fEJNVyUyMGZvciUyMHNhbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slider__item-03 {
-  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
-    url("../assets/all-images/slider-img/slider-3.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(2, 2, 5, 0.5)),
+    url("https://media.istockphoto.com/id/1307086567/photo/generic-modern-suv-car-in-concrete-garage.jpg?s=612x612&w=0&k=20&c=eh6EA4g462zfVg5a3iPwMsbNlTGZqYhZFUhcLoaLDSs=");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
