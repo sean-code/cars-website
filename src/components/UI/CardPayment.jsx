@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import Cards from "react-credit-cards";
 import "react-credit-cards/es/styles-compiled.css";
 import { useState } from 'react';
+import PaymentMethod from './PaymentMethod';
 
 
 const Payment = () =>{
@@ -28,6 +29,7 @@ const Payment = () =>{
 
     return(
         <>
+            {/* <PaymentMethod /> */}
             <div className="mainscreen">
                 <div className="payment-card">
                     <div className="leftside">
