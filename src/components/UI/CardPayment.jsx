@@ -29,7 +29,7 @@ const Payment = () =>{
 
     return(
         <>
-            {/* <PaymentMethod /> */}
+            <PaymentMethod />
             <div className="mainscreen">
                 <div className="payment-card">
                     <div className="leftside">
