@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cars-website/static/css/main.0ab941cd.css",
-    "main.js": "/cars-website/static/js/main.a985a9e6.js",
+    "main.js": "/cars-website/static/js/main.b5df6117.js",
     "static/media/remixicon.svg?t=1590207869815": "/cars-website/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/remixicon.eot?t=1590207869815": "/cars-website/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/cars-website/static/media/remixicon.f2616f597cf98f38d234.ttf",
@@ -19,10 +19,10 @@
     "static/media/slick.woff": "/cars-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/cars-website/index.html",
     "main.0ab941cd.css.map": "/cars-website/static/css/main.0ab941cd.css.map",
-    "main.a985a9e6.js.map": "/cars-website/static/js/main.a985a9e6.js.map"
+    "main.b5df6117.js.map": "/cars-website/static/js/main.b5df6117.js.map"
   },
   "entrypoints": [
     "static/css/main.0ab941cd.css",
-    "static/js/main.a985a9e6.js"
+    "static/js/main.b5df6117.js"
   ]
 }
