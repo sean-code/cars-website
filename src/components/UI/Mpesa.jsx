@@ -21,17 +21,17 @@ const Mpesa = () => {
                         <form action="">
                             <h1>Pay Via M-Pesa</h1>
                             <h2>Payment Information</h2>
-                            <h3>Total Price: <span>${singleCarItem.price}</span></h3>
+                            <h3>Total Price: <span>Ksh.{singleCarItem.price}</span></h3>
                             <span><p><i>
                                 YOU WILL BE PROMPTED TO ENTER YOUR PIN VIA AN STK PUSH
                             </i></p></span>
                                 <p>Phone Number</p>
-                            <input 
-                                type="number"  
+                            <input
+                                type="number"
                                 name="number"
-                                class="inputbox" 
-                                id="card_number" 
-                                required 
+                                class="inputbox"
+                                id="card_number"
+                                required
                             />
                             <button type="submit" class="checkout-button">Submit</button>
                         </form>
