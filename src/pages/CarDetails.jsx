@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
-import PaymentMethod from "../components/UI/PaymentMethod";
+// import PaymentMethod from "../components/UI/PaymentMethod";
 import AllPayment from "../components/UI/AllPayment";
 
 
@@ -48,8 +48,8 @@ const CarDetails = () => {
 
                 <p className="section__description" style={{color:'#000', fontSize:'1.2 rem'}}>
                 <h3>Overview</h3>
-                    <p className='desc'>The <span>{singleCarItem.make}{' '}{singleCarItem.model}</span> has a mileage of <span>{singleCarItem.mileage}</span> kpml. 
-                        The <span>{singleCarItem.fuel_type}</span> car is of <span>{singleCarItem.transmission}</span><br/>transmission 
+                    <p className='desc'>The <span>{singleCarItem.make}{' '}{singleCarItem.model}</span> has a mileage of <span>{singleCarItem.mileage}</span> kpml.
+                        The <span>{singleCarItem.fuel_type}</span> car is of <span>{singleCarItem.transmission}</span><br/>transmission
                         and encompasses an engine size of <span>{singleCarItem.engine_size}</span>. Enjoy this <span>{singleCarItem.year}</span><br /> manufactured car,
                         only at $<span>{singleCarItem.price}</span> per day!
                     </p>
