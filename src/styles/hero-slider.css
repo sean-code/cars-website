@@ -1,0 +1,84 @@
+.slider__item {
+  max-width: 100%;
+  height: 650px;
+}
+
+.slider__item-01 {
+  background: linear-gradient(rgba(23, 23, 26, 0.5), rgba(15, 16, 18, 0.5)),
+    url("https://images.unsplash.com/photo-1615887110697-0819ec23465f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fFNVViUyMGhpcmV8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider__item-02 {
+  background: linear-gradient(rgba(18, 18, 21, 0.5), rgba(10, 10, 11, 0.5)),
+    url("https://media.istockphoto.com/id/949483148/photo/3d-illustration-of-generic-suv-car-side-view.jpg?s=612x612&w=0&k=20&c=yk8JAOw8pMH3GFhrP2poFNiBQ2msVtLWCiQ-b_gZ0dU=");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider__item-03 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(2, 2, 5, 0.5)),
+    url("https://media.istockphoto.com/id/1307086567/photo/generic-modern-suv-car-in-concrete-garage.jpg?s=612x612&w=0&k=20&c=eh6EA4g462zfVg5a3iPwMsbNlTGZqYhZFUhcLoaLDSs=");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__slider {
+  overflow: hidden;
+}
+
+.slider__content {
+  padding-top: 150px;
+}
+
+.slider__content h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.reserve__btn {
+  background: #fff !important;
+  color: #000d6b !important;
+  border: none;
+  outline: none;
+}
+
+.reserve__btn a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000d6b;
+}
+
+.reserve__btn:hover {
+  background: #000d6b;
+  color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .slider__item {
+    height: 530px;
+    max-width: 100vw;
+  }
+
+  .slider__content {
+    margin-top: -50px;
+  }
+
+  .slider__content h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .slider__item {
+    height: 450px;
+  }
+
+  .slider__content h1 {
+    font-size: 1.5rem;
+  }
+}
