@@ -28,9 +28,19 @@ const Routers = () => {
       <Route path="/our-cars/:slug/payment/card" element={<Payment/>} />
       <Route path="/our-cars/:slug/payment/mpesa" element={<Mpesa/>} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<NotFound />} />
+
+
+
+
+      {/* Authentication */}
+
+
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
-      <Route path="*" element={<NotFound />} />
+
+
+
     </Routes>
   );
 };

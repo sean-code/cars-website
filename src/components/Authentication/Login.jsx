@@ -3,28 +3,47 @@ import {  signInWithEmailAndPassword   } from 'firebase/auth';
 import { auth } from '../Firebase/firebase';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { styles }from '../Authentication/Login.css';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const onLogin = (e) => {
+    const onLogin = async (e) => {
         e.preventDefault();
-        signInWithEmailAndPassword(auth, email, password)
-        .then((userCredential) => {
-            // Signed in
+        try {
+            const userCredential = await signInWithEmailAndPassword(auth, email, password);
             const user = userCredential.user;
-            navigate("/home")
+
+            // Store the access token (user's UID) in session storage
+            sessionStorage.setItem('accessToken', user.uid);
             console.log(user);
-        })
-        .catch((error) => {
+
+            toast.success('Login successful!', {
+                position: 'top-right',
+                autoClose: 4000, // Close after 3 seconds
+                hideProgressBar: true,
+              });
+
+            // Navigate to the home page or any other route
+            navigate('/home');
+          } catch (error) {
             const errorCode = error.code;
             const errorMessage = error.message;
-            console.log(errorCode, errorMessage)
-        });
+            console.log(errorCode, errorMessage);
 
-    }
+              // Show error toast
+            toast.error('Login failed. Please check your credentials.', {
+                position: 'top-right',
+                autoClose: 4000,
+                hideProgressBar: true,
+            });
+          }
+
+        };
+
 
     return(
         <>
