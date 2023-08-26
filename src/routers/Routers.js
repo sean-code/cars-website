@@ -1,5 +1,8 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
+import Login from "../components/Authentication/Login";
+import Signup from "../components/Authentication/Signup";
+
 import Home from "../pages/Home";
 import About from "../pages/About";
 import CarListing from "../pages/CarListing";
@@ -25,6 +28,8 @@ const Routers = () => {
       <Route path="/our-cars/:slug/payment/card" element={<Payment/>} />
       <Route path="/our-cars/:slug/payment/mpesa" element={<Mpesa/>} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
