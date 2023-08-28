@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Login from "../components/Authentication/Login";
 import Signup from "../components/Authentication/Signup";
@@ -14,11 +14,38 @@ import Contact from "../pages/Contact";
 import Payment from "../components/UI/CardPayment";
 import Mpesa from "../components/UI/Mpesa";
 
+
+
+
+
+
 const Routers = () => {
+
+
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    // auto-login
+    fetch("/me").then((response) => {
+      if (response === 200) {
+        response.json().then((user) => setUser(user));
+      }
+    });
+  }, []);
+
+
+  if (user) return <Login onLogin={setUser} />;
+
+
+
+
+
+
   return (
     <Routes>
       <Route path="/cars-website" element={<Navigate to="/home" />} />
       <Route path="/" element={<Navigate to="/home" />} />
+      <Route path="/" element={<Login />} />
       <Route path="/home" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/our-cars" element={<CarListing />} />

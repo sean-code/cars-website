@@ -19,6 +19,7 @@ const Login = () => {
 
             // Store the access token (user's UID) in session storage
             sessionStorage.setItem('accessToken', user.uid);
+            // sessionStorage.setItem('token', user.uid);
             console.log(user);
 
             toast.success('Login successful!', {
@@ -65,6 +66,7 @@ const Login = () => {
                                     id="email-address"
                                     name="email"
                                     type="email"
+                                    value={email}
                                     required
                                     placeholder="Email address"
                                     onChange={(e)=>setEmail(e.target.value)}
@@ -76,6 +78,7 @@ const Login = () => {
                             id="password"
                             name="password"
                             type="password"
+                            value={password}
                             required
                             placeholder="Password"
                             onChange={(e)=>setPassword(e.target.value)}
